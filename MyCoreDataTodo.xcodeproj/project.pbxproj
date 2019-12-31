@@ -15,6 +15,7 @@
 		4214F77923BADEE4006E36A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4214F77723BADEE4006E36A7 /* LaunchScreen.storyboard */; };
 		4214F78423BADEE4006E36A7 /* MyCoreDataTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4214F78323BADEE4006E36A7 /* MyCoreDataTodoTests.swift */; };
 		4214F78F23BADEE4006E36A7 /* MyCoreDataTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4214F78E23BADEE4006E36A7 /* MyCoreDataTodoUITests.swift */; };
+		4214F79D23BAE2B0006E36A7 /* addTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4214F79C23BAE2B0006E36A7 /* addTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4214F78A23BADEE4006E36A7 /* MyCoreDataTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCoreDataTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4214F78E23BADEE4006E36A7 /* MyCoreDataTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoreDataTodoUITests.swift; sourceTree = "<group>"; };
 		4214F79023BADEE4006E36A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4214F79C23BAE2B0006E36A7 /* addTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				4214F76B23BADEE2006E36A7 /* AppDelegate.swift */,
 				4214F76D23BADEE2006E36A7 /* ViewController.swift */,
+				4214F79C23BAE2B0006E36A7 /* addTaskViewController.swift */,
 				4214F76F23BADEE2006E36A7 /* Main.storyboard */,
 				4214F77523BADEE4006E36A7 /* Assets.xcassets */,
 				4214F77723BADEE4006E36A7 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4214F77423BADEE3006E36A7 /* MyCoreDataTodo.xcdatamodeld in Sources */,
+				4214F79D23BAE2B0006E36A7 /* addTaskViewController.swift in Sources */,
 				4214F76E23BADEE2006E36A7 /* ViewController.swift in Sources */,
 				4214F76C23BADEE2006E36A7 /* AppDelegate.swift in Sources */,
 			);
